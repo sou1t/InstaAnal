@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F3D64E11CD27C2000D8306F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D64E01CD27C2000D8306F /* AppDelegate.swift */; };
+		3F3D64E31CD27C2000D8306F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D64E21CD27C2000D8306F /* ViewController.swift */; };
+		3F3D64E61CD27C2000D8306F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D64E41CD27C2000D8306F /* Main.storyboard */; };
+		3F3D64E81CD27C2000D8306F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D64E71CD27C2000D8306F /* Assets.xcassets */; };
+		3F3D64EB1CD27C2000D8306F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D64E91CD27C2000D8306F /* LaunchScreen.storyboard */; };
+		3F3D64F61CD27C2000D8306F /* InstaAnalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D64F51CD27C2000D8306F /* InstaAnalTests.swift */; };
+		3F3D65011CD27C2000D8306F /* InstaAnalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D65001CD27C2000D8306F /* InstaAnalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F3D64F21CD27C2000D8306F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3D64D51CD27C1F00D8306F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3D64DC1CD27C1F00D8306F;
+			remoteInfo = InstaAnal;
+		};
+		3F3D64FD1CD27C2000D8306F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3D64D51CD27C1F00D8306F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3D64DC1CD27C1F00D8306F;
+			remoteInfo = InstaAnal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F3D64DD1CD27C1F00D8306F /* InstaAnal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaAnal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3D64E01CD27C2000D8306F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F3D64E21CD27C2000D8306F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F3D64E51CD27C2000D8306F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F3D64E71CD27C2000D8306F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F3D64EA1CD27C2000D8306F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F3D64EC1CD27C2000D8306F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3D64F11CD27C2000D8306F /* InstaAnalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaAnalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3D64F51CD27C2000D8306F /* InstaAnalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaAnalTests.swift; sourceTree = "<group>"; };
+		3F3D64F71CD27C2000D8306F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3D64FC1CD27C2000D8306F /* InstaAnalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaAnalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3D65001CD27C2000D8306F /* InstaAnalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaAnalUITests.swift; sourceTree = "<group>"; };
+		3F3D65021CD27C2000D8306F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F3D64DA1CD27C1F00D8306F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3D64EE1CD27C2000D8306F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3D64F91CD27C2000D8306F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F3D64D41CD27C1F00D8306F = {
+			isa = PBXGroup;
+			children = (
+				3F3D64DF1CD27C2000D8306F /* InstaAnal */,
+				3F3D64F41CD27C2000D8306F /* InstaAnalTests */,
+				3F3D64FF1CD27C2000D8306F /* InstaAnalUITests */,
+				3F3D64DE1CD27C1F00D8306F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F3D64DE1CD27C1F00D8306F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D64DD1CD27C1F00D8306F /* InstaAnal.app */,
+				3F3D64F11CD27C2000D8306F /* InstaAnalTests.xctest */,
+				3F3D64FC1CD27C2000D8306F /* InstaAnalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F3D64DF1CD27C2000D8306F /* InstaAnal */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D64E01CD27C2000D8306F /* AppDelegate.swift */,
+				3F3D64E21CD27C2000D8306F /* ViewController.swift */,
+				3F3D64E41CD27C2000D8306F /* Main.storyboard */,
+				3F3D64E71CD27C2000D8306F /* Assets.xcassets */,
+				3F3D64E91CD27C2000D8306F /* LaunchScreen.storyboard */,
+				3F3D64EC1CD27C2000D8306F /* Info.plist */,
+			);
+			path = InstaAnal;
+			sourceTree = "<group>";
+		};
+		3F3D64F41CD27C2000D8306F /* InstaAnalTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D64F51CD27C2000D8306F /* InstaAnalTests.swift */,
+				3F3D64F71CD27C2000D8306F /* Info.plist */,
+			);
+			path = InstaAnalTests;
+			sourceTree = "<group>";
+		};
+		3F3D64FF1CD27C2000D8306F /* InstaAnalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D65001CD27C2000D8306F /* InstaAnalUITests.swift */,
+				3F3D65021CD27C2000D8306F /* Info.plist */,
+			);
+			path = InstaAnalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F3D64DC1CD27C1F00D8306F /* InstaAnal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3D65051CD27C2000D8306F /* Build configuration list for PBXNativeTarget "InstaAnal" */;
+			buildPhases = (
+				3F3D64D91CD27C1F00D8306F /* Sources */,
+				3F3D64DA1CD27C1F00D8306F /* Frameworks */,
+				3F3D64DB1CD27C1F00D8306F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaAnal;
+			productName = InstaAnal;
+			productReference = 3F3D64DD1CD27C1F00D8306F /* InstaAnal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F3D64F01CD27C2000D8306F /* InstaAnalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3D65081CD27C2000D8306F /* Build configuration list for PBXNativeTarget "InstaAnalTests" */;
+			buildPhases = (
+				3F3D64ED1CD27C2000D8306F /* Sources */,
+				3F3D64EE1CD27C2000D8306F /* Frameworks */,
+				3F3D64EF1CD27C2000D8306F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3D64F31CD27C2000D8306F /* PBXTargetDependency */,
+			);
+			name = InstaAnalTests;
+			productName = InstaAnalTests;
+			productReference = 3F3D64F11CD27C2000D8306F /* InstaAnalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F3D64FB1CD27C2000D8306F /* InstaAnalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3D650B1CD27C2000D8306F /* Build configuration list for PBXNativeTarget "InstaAnalUITests" */;
+			buildPhases = (
+				3F3D64F81CD27C2000D8306F /* Sources */,
+				3F3D64F91CD27C2000D8306F /* Frameworks */,
+				3F3D64FA1CD27C2000D8306F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3D64FE1CD27C2000D8306F /* PBXTargetDependency */,
+			);
+			name = InstaAnalUITests;
+			productName = InstaAnalUITests;
+			productReference = 3F3D64FC1CD27C2000D8306F /* InstaAnalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F3D64D51CD27C1F00D8306F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Виталий Волков";
+				TargetAttributes = {
+					3F3D64DC1CD27C1F00D8306F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3F3D64F01CD27C2000D8306F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3F3D64DC1CD27C1F00D8306F;
+					};
+					3F3D64FB1CD27C2000D8306F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3F3D64DC1CD27C1F00D8306F;
+					};
+				};
+			};
+			buildConfigurationList = 3F3D64D81CD27C1F00D8306F /* Build configuration list for PBXProject "InstaAnal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F3D64D41CD27C1F00D8306F;
+			productRefGroup = 3F3D64DE1CD27C1F00D8306F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F3D64DC1CD27C1F00D8306F /* InstaAnal */,
+				3F3D64F01CD27C2000D8306F /* InstaAnalTests */,
+				3F3D64FB1CD27C2000D8306F /* InstaAnalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F3D64DB1CD27C1F00D8306F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3D64EB1CD27C2000D8306F /* LaunchScreen.storyboard in Resources */,
+				3F3D64E81CD27C2000D8306F /* Assets.xcassets in Resources */,
+				3F3D64E61CD27C2000D8306F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3D64EF1CD27C2000D8306F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3D64FA1CD27C2000D8306F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F3D64D91CD27C1F00D8306F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3D64E31CD27C2000D8306F /* ViewController.swift in Sources */,
+				3F3D64E11CD27C2000D8306F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3D64ED1CD27C2000D8306F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3D64F61CD27C2000D8306F /* InstaAnalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3D64F81CD27C2000D8306F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3D65011CD27C2000D8306F /* InstaAnalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F3D64F31CD27C2000D8306F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3D64DC1CD27C1F00D8306F /* InstaAnal */;
+			targetProxy = 3F3D64F21CD27C2000D8306F /* PBXContainerItemProxy */;
+		};
+		3F3D64FE1CD27C2000D8306F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3D64DC1CD27C1F00D8306F /* InstaAnal */;
+			targetProxy = 3F3D64FD1CD27C2000D8306F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F3D64E41CD27C2000D8306F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3D64E51CD27C2000D8306F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F3D64E91CD27C2000D8306F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3D64EA1CD27C2000D8306F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F3D65031CD27C2000D8306F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F3D65041CD27C2000D8306F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F3D65061CD27C2000D8306F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstaAnal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vitalyi.InstaAnal.InstaAnal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F3D65071CD27C2000D8306F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstaAnal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vitalyi.InstaAnal.InstaAnal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F3D65091CD27C2000D8306F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstaAnalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vitalyi.InstaAnal.InstaAnalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaAnal.app/InstaAnal";
+			};
+			name = Debug;
+		};
+		3F3D650A1CD27C2000D8306F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstaAnalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vitalyi.InstaAnal.InstaAnalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaAnal.app/InstaAnal";
+			};
+			name = Release;
+		};
+		3F3D650C1CD27C2000D8306F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InstaAnalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vitalyi.InstaAnal.InstaAnalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InstaAnal;
+			};
+			name = Debug;
+		};
+		3F3D650D1CD27C2000D8306F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InstaAnalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vitalyi.InstaAnal.InstaAnalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InstaAnal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F3D64D81CD27C1F00D8306F /* Build configuration list for PBXProject "InstaAnal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3D65031CD27C2000D8306F /* Debug */,
+				3F3D65041CD27C2000D8306F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3D65051CD27C2000D8306F /* Build configuration list for PBXNativeTarget "InstaAnal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3D65061CD27C2000D8306F /* Debug */,
+				3F3D65071CD27C2000D8306F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F3D65081CD27C2000D8306F /* Build configuration list for PBXNativeTarget "InstaAnalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3D65091CD27C2000D8306F /* Debug */,
+				3F3D650A1CD27C2000D8306F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F3D650B1CD27C2000D8306F /* Build configuration list for PBXNativeTarget "InstaAnalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3D650C1CD27C2000D8306F /* Debug */,
+				3F3D650D1CD27C2000D8306F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F3D64D51CD27C1F00D8306F /* Project object */;
+}
