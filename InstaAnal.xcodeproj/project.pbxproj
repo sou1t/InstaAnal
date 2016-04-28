@@ -14,6 +14,10 @@
 		3F3D64EB1CD27C2000D8306F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D64E91CD27C2000D8306F /* LaunchScreen.storyboard */; };
 		3F3D64F61CD27C2000D8306F /* InstaAnalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D64F51CD27C2000D8306F /* InstaAnalTests.swift */; };
 		3F3D65011CD27C2000D8306F /* InstaAnalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D65001CD27C2000D8306F /* InstaAnalUITests.swift */; };
+		3F3D65131CD2882C00D8306F /* BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D65121CD2882C00D8306F /* BG.png */; };
+		3F3D65151CD294ED00D8306F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D65141CD294ED00D8306F /* logo.png */; };
+		3F3D65181CD2961300D8306F /* proximanova-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D65171CD2961300D8306F /* proximanova-light.otf */; };
+		D1B1DECB1344994E048CD023 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F458380D22F9524B8C0EAA /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,12 @@
 		3F3D64FC1CD27C2000D8306F /* InstaAnalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaAnalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3D65001CD27C2000D8306F /* InstaAnalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaAnalUITests.swift; sourceTree = "<group>"; };
 		3F3D65021CD27C2000D8306F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3D65121CD2882C00D8306F /* BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BG.png; path = Resources/Images/BG.png; sourceTree = "<group>"; };
+		3F3D65141CD294ED00D8306F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Resources/Images/logo.png; sourceTree = "<group>"; };
+		3F3D65171CD2961300D8306F /* proximanova-light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "proximanova-light.otf"; path = "Resources/Fonts/proximanova-light.otf"; sourceTree = "<group>"; };
+		48F458380D22F9524B8C0EAA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FFB9C60D397149EB0B3327F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E97B6F3DF0B777DF22329917 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1B1DECB1344994E048CD023 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B504CAD439B4566D25D105F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E97B6F3DF0B777DF22329917 /* Pods.debug.xcconfig */,
+				5FFB9C60D397149EB0B3327F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3F3D64D41CD27C1F00D8306F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +101,8 @@
 				3F3D64F41CD27C2000D8306F /* InstaAnalTests */,
 				3F3D64FF1CD27C2000D8306F /* InstaAnalUITests */,
 				3F3D64DE1CD27C1F00D8306F /* Products */,
+				3B504CAD439B4566D25D105F /* Pods */,
+				A53B45EA99362603581000AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +119,7 @@
 		3F3D64DF1CD27C2000D8306F /* InstaAnal */ = {
 			isa = PBXGroup;
 			children = (
+				3F3D65101CD2880D00D8306F /* Resources */,
 				3F3D64E01CD27C2000D8306F /* AppDelegate.swift */,
 				3F3D64E21CD27C2000D8306F /* ViewController.swift */,
 				3F3D64E41CD27C2000D8306F /* Main.storyboard */,
@@ -125,6 +148,40 @@
 			path = InstaAnalUITests;
 			sourceTree = "<group>";
 		};
+		3F3D65101CD2880D00D8306F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D65161CD2960100D8306F /* Fonts */,
+				3F3D65111CD2881B00D8306F /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3F3D65111CD2881B00D8306F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D65141CD294ED00D8306F /* logo.png */,
+				3F3D65121CD2882C00D8306F /* BG.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3F3D65161CD2960100D8306F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D65171CD2961300D8306F /* proximanova-light.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		A53B45EA99362603581000AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48F458380D22F9524B8C0EAA /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F3D65051CD27C2000D8306F /* Build configuration list for PBXNativeTarget "InstaAnal" */;
 			buildPhases = (
+				EBC3738E1E95388CBAFEDFFD /* Check Pods Manifest.lock */,
 				3F3D64D91CD27C1F00D8306F /* Sources */,
 				3F3D64DA1CD27C1F00D8306F /* Frameworks */,
 				3F3D64DB1CD27C1F00D8306F /* Resources */,
+				8566A03CD5231DA5AE600299 /* Embed Pods Frameworks */,
+				CA0D5EAB8282370B3455436A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,7 +290,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3D64EB1CD27C2000D8306F /* LaunchScreen.storyboard in Resources */,
+				3F3D65151CD294ED00D8306F /* logo.png in Resources */,
 				3F3D64E81CD27C2000D8306F /* Assets.xcassets in Resources */,
+				3F3D65181CD2961300D8306F /* proximanova-light.otf in Resources */,
+				3F3D65131CD2882C00D8306F /* BG.png in Resources */,
 				3F3D64E61CD27C2000D8306F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +313,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8566A03CD5231DA5AE600299 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA0D5EAB8282370B3455436A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBC3738E1E95388CBAFEDFFD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3F3D64D91CD27C1F00D8306F /* Sources */ = {
@@ -397,6 +508,7 @@
 		};
 		3F3D65061CD27C2000D8306F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E97B6F3DF0B777DF22329917 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InstaAnal/Info.plist;
@@ -409,6 +521,7 @@
 		};
 		3F3D65071CD27C2000D8306F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FFB9C60D397149EB0B3327F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InstaAnal/Info.plist;
@@ -484,6 +597,7 @@
 				3F3D65071CD27C2000D8306F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F3D65081CD27C2000D8306F /* Build configuration list for PBXNativeTarget "InstaAnalTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +606,7 @@
 				3F3D650A1CD27C2000D8306F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F3D650B1CD27C2000D8306F /* Build configuration list for PBXNativeTarget "InstaAnalUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +615,7 @@
 				3F3D650D1CD27C2000D8306F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
