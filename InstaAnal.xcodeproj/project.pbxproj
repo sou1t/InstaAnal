@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0A36BA1CDBADB60071247F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A36B91CDBADB60071247F /* LoginViewController.swift */; };
 		3F3D64E11CD27C2000D8306F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D64E01CD27C2000D8306F /* AppDelegate.swift */; };
 		3F3D64E31CD27C2000D8306F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D64E21CD27C2000D8306F /* ViewController.swift */; };
 		3F3D64E61CD27C2000D8306F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D64E41CD27C2000D8306F /* Main.storyboard */; };
@@ -17,6 +18,10 @@
 		3F3D65131CD2882C00D8306F /* BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D65121CD2882C00D8306F /* BG.png */; };
 		3F3D65151CD294ED00D8306F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D65141CD294ED00D8306F /* logo.png */; };
 		3F3D65181CD2961300D8306F /* proximanova-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D65171CD2961300D8306F /* proximanova-light.otf */; };
+		3F7989661CDC90F800484284 /* TopListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7989651CDC90F800484284 /* TopListViewController.swift */; };
+		3F7989681CDC910800484284 /* AnalyzeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7989671CDC910800484284 /* AnalyzeViewController.swift */; };
+		3FAB82BF1CD3527200B195F8 /* proximanova-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3FAB82BE1CD3527200B195F8 /* proximanova-regular.otf */; };
+		3FD75D571CDBD3C500A788E7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD75D561CDBD3C500A788E7 /* ProfileViewController.swift */; };
 		D1B1DECB1344994E048CD023 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F458380D22F9524B8C0EAA /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F0A36B91CDBADB60071247F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3F3D64DD1CD27C1F00D8306F /* InstaAnal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaAnal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3D64E01CD27C2000D8306F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F3D64E21CD27C2000D8306F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +60,10 @@
 		3F3D65121CD2882C00D8306F /* BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BG.png; path = Resources/Images/BG.png; sourceTree = "<group>"; };
 		3F3D65141CD294ED00D8306F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Resources/Images/logo.png; sourceTree = "<group>"; };
 		3F3D65171CD2961300D8306F /* proximanova-light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "proximanova-light.otf"; path = "Resources/Fonts/proximanova-light.otf"; sourceTree = "<group>"; };
+		3F7989651CDC90F800484284 /* TopListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopListViewController.swift; sourceTree = "<group>"; };
+		3F7989671CDC910800484284 /* AnalyzeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyzeViewController.swift; sourceTree = "<group>"; };
+		3FAB82BE1CD3527200B195F8 /* proximanova-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "proximanova-regular.otf"; path = "Resources/Fonts/proximanova-regular.otf"; sourceTree = "<group>"; };
+		3FD75D561CDBD3C500A788E7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		48F458380D22F9524B8C0EAA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FFB9C60D397149EB0B3327F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E97B6F3DF0B777DF22329917 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +132,10 @@
 				3F3D65101CD2880D00D8306F /* Resources */,
 				3F3D64E01CD27C2000D8306F /* AppDelegate.swift */,
 				3F3D64E21CD27C2000D8306F /* ViewController.swift */,
+				3F0A36B91CDBADB60071247F /* LoginViewController.swift */,
+				3FD75D561CDBD3C500A788E7 /* ProfileViewController.swift */,
+				3F7989651CDC90F800484284 /* TopListViewController.swift */,
+				3F7989671CDC910800484284 /* AnalyzeViewController.swift */,
 				3F3D64E41CD27C2000D8306F /* Main.storyboard */,
 				3F3D64E71CD27C2000D8306F /* Assets.xcassets */,
 				3F3D64E91CD27C2000D8306F /* LaunchScreen.storyboard */,
@@ -169,6 +183,7 @@
 		3F3D65161CD2960100D8306F /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				3FAB82BE1CD3527200B195F8 /* proximanova-regular.otf */,
 				3F3D65171CD2961300D8306F /* proximanova-light.otf */,
 			);
 			name = Fonts;
@@ -291,6 +306,7 @@
 			files = (
 				3F3D64EB1CD27C2000D8306F /* LaunchScreen.storyboard in Resources */,
 				3F3D65151CD294ED00D8306F /* logo.png in Resources */,
+				3FAB82BF1CD3527200B195F8 /* proximanova-regular.otf in Resources */,
 				3F3D64E81CD27C2000D8306F /* Assets.xcassets in Resources */,
 				3F3D65181CD2961300D8306F /* proximanova-light.otf in Resources */,
 				3F3D65131CD2882C00D8306F /* BG.png in Resources */,
@@ -367,8 +383,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0A36BA1CDBADB60071247F /* LoginViewController.swift in Sources */,
 				3F3D64E31CD27C2000D8306F /* ViewController.swift in Sources */,
+				3F7989661CDC90F800484284 /* TopListViewController.swift in Sources */,
+				3FD75D571CDBD3C500A788E7 /* ProfileViewController.swift in Sources */,
 				3F3D64E11CD27C2000D8306F /* AppDelegate.swift in Sources */,
+				3F7989681CDC910800484284 /* AnalyzeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

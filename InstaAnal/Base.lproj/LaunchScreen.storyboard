@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="proximanova-light.otf">
@@ -26,33 +25,29 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="BG.png" translatesAutoresizingMaskIntoConstraints="NO" id="SQc-zm-4Uw">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="741"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="crf-JQ-Ecu">
-                                <rect key="frame" x="74" y="203" width="266" height="158"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="crf-JQ-Ecu" secondAttribute="height" multiplier="133:79" id="COC-Yd-fSB"/>
-                                    <constraint firstAttribute="width" secondItem="crf-JQ-Ecu" secondAttribute="height" multiplier="133:79" id="KeK-R7-YUS"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="InstaAnal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Fhc-ru-thi">
-                                <rect key="frame" x="74" y="382" width="266" height="56"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="InstaAnalyze" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Fhc-ru-thi">
+                                <rect key="frame" x="74" y="377" width="266" height="62"/>
                                 <fontDescription key="fontDescription" name="ProximaNova-Light" family="Proxima Nova" pointSize="62"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="crf-JQ-Ecu">
+                                <rect key="frame" x="74" y="197" width="266" height="158"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="SQc-zm-4Uw" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="1OV-LJ-CUO"/>
-                            <constraint firstAttribute="trailing" secondItem="crf-JQ-Ecu" secondAttribute="trailing" constant="74" id="6pA-2l-sm2"/>
-                            <constraint firstItem="crf-JQ-Ecu" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="183" id="FtV-9n-hch"/>
-                            <constraint firstAttribute="bottom" secondItem="SQc-zm-4Uw" secondAttribute="bottom" id="TZk-s9-5Ql"/>
-                            <constraint firstItem="Fhc-ru-thi" firstAttribute="trailing" secondItem="crf-JQ-Ecu" secondAttribute="trailing" id="cj0-YD-S7R"/>
-                            <constraint firstItem="crf-JQ-Ecu" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="74" id="i2R-67-2jA"/>
-                            <constraint firstItem="SQc-zm-4Uw" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="luN-wm-nPg"/>
-                            <constraint firstAttribute="trailing" secondItem="SQc-zm-4Uw" secondAttribute="trailing" id="pa1-CC-UfQ"/>
-                            <constraint firstItem="Fhc-ru-thi" firstAttribute="top" secondItem="crf-JQ-Ecu" secondAttribute="bottom" constant="21" id="qPo-g2-98p"/>
-                            <constraint firstItem="Fhc-ru-thi" firstAttribute="centerX" secondItem="crf-JQ-Ecu" secondAttribute="centerX" id="r7r-k7-wfi"/>
-                            <constraint firstItem="Fhc-ru-thi" firstAttribute="width" secondItem="crf-JQ-Ecu" secondAttribute="width" id="wGn-DR-vre"/>
+                            <constraint firstItem="Fhc-ru-thi" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="C3T-zm-Mdz"/>
+                            <constraint firstItem="Fhc-ru-thi" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="74" id="Cyf-aG-JLG"/>
+                            <constraint firstItem="Fhc-ru-thi" firstAttribute="top" secondItem="crf-JQ-Ecu" secondAttribute="bottom" constant="22" id="Hc6-bg-QiU"/>
+                            <constraint firstItem="Fhc-ru-thi" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="bPk-91-4xh"/>
+                            <constraint firstItem="crf-JQ-Ecu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cMz-Q7-tcZ"/>
+                            <constraint firstAttribute="trailing" secondItem="SQc-zm-4Uw" secondAttribute="trailing" id="mtA-cg-mV5"/>
+                            <constraint firstAttribute="bottom" secondItem="SQc-zm-4Uw" secondAttribute="bottom" id="pbZ-nX-OpT"/>
+                            <constraint firstItem="SQc-zm-4Uw" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="puQ-A7-eEP"/>
+                            <constraint firstAttribute="trailing" secondItem="Fhc-ru-thi" secondAttribute="trailing" constant="74" id="tRr-Q1-OMF"/>
+                            <constraint firstItem="SQc-zm-4Uw" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="v2g-1t-ihX"/>
+                            <constraint firstItem="Fhc-ru-thi" firstAttribute="width" secondItem="crf-JQ-Ecu" secondAttribute="width" id="x4Q-Hh-hlf"/>
                         </constraints>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
